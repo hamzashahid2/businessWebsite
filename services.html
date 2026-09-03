@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Services &amp; Pricing | Aurelia Interiors — Lahore</title>
+<meta name="description" content="Interior design services in Lahore — space planning, 3D visualisation, turnkey fit-out, custom furniture and lighting design. Transparent per-square-foot pricing and an instant online estimate.">
+<meta name="author" content="Aurelia Interiors">
+<meta name="theme-color" content="#14100D">
+<meta property="og:title" content="Services &amp; Pricing | Aurelia Interiors">
+<meta property="og:description" content="Interior design services in Lahore — space planning, 3D visualisation, turnkey fit-out, custom furniture and lighting design. Transparent per-square-foot pricing and an instant online estimate.">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page-services" data-page="services">
+<!-- ===== Preloader ===== -->
+<div class="preloader" id="preloader">
+  <div class="pl-inner">
+    <svg viewBox="0 0 64 64" fill="none" stroke-width="4" stroke-linecap="round" aria-hidden="true">
+      <path d="M8 56V30a24 24 0 0 1 48 0v26"/><path d="M21 56V32a11 11 0 0 1 22 0v24"/><path d="M21 43h22"/>
+    </svg>
+    <b>AURELIA</b>
+    <div class="pl-bar"><i></i></div>
+  </div>
+</div>
+<a class="skip-link" href="#main">Skip to main content</a>
+<div class="progress-bar" id="progress" aria-hidden="true"></div>
+
+<!-- ===== Site header ===== -->
+<header class="header" id="header">
+  <div class="wrap header__inner">
+    <a class="logo" href="index.html" aria-label="Aurelia Interiors — home">
+      <svg class="logo__mark" viewBox="0 0 64 64" fill="none" stroke-width="4" stroke-linecap="round" aria-hidden="true">
+          <path d="M8 56V30a24 24 0 0 1 48 0v26"/><path d="M21 56V32a11 11 0 0 1 22 0v24"/><path d="M21 43h22"/>
+          <circle cx="32" cy="12" r="3" stroke="none"/></svg>
+      <span class="logo__txt">
+        <span class="logo__name">AURELIA</span>
+        <span class="logo__sub">INTERIORS</span>
+      </span>
+    </a>
+
+    <nav class="nav" aria-label="Primary">
+      <a class="nav__link" href="index.html">Home</a>
+      <a class="nav__link" href="about.html">About Us</a>
+      <a class="nav__link" href="services.html">Services</a>
+      <a class="nav__link" href="portfolio.html">Portfolio</a>
+      <a class="nav__link" href="contact.html">Contact Us</a>
+    </nav>
+
+    <div class="header__actions">
+      <a class="icon-btn" href="portfolio.html" aria-label="Your shortlisted projects">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg>
+        <span class="icon-btn__badge" data-fav-count>0</span>
+      </a>
+      <button class="icon-btn theme-toggle" type="button" aria-label="Switch between light and dark theme">
+        <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M6.3 17.7l-1.4 1.4M19.1 4.9l-1.4 1.4"/></svg>
+      </button>
+      <a class="btn btn--sm" href="contact.html"><span>Get a quote</span></a>
+      <button class="burger" id="burger" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="drawer">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ===== Mobile drawer ===== -->
+<nav class="drawer" id="drawer" aria-label="Mobile">
+  <a class="drawer__link" href="index.html">Home</a>
+  <a class="drawer__link" href="about.html">About Us</a>
+  <a class="drawer__link" href="services.html">Services</a>
+  <a class="drawer__link" href="portfolio.html">Portfolio</a>
+  <a class="drawer__link" href="contact.html">Contact Us</a>
+  <div class="drawer__foot">
+    <a class="btn btn--accent" href="contact.html"><span>Book a consultation</span></a>
+    <a class="btn btn--ghost" data-wa href="#"><span>WhatsApp us</span></a>
+  </div>
+</nav>
+
+<main id="main">
+
+  <!-- ============ PAGE HERO ============ -->
+  <section class="hero hero--page" aria-label="Services">
+    <div class="hero__media">
+      <div class="hero__slide on"><img src="assets/img/proj-12.jpg" alt="A deep sage kitchen with brass hardware designed by Aurelia Interiors" fetchpriority="high"></div>
+    </div>
+    <div class="hero__inner">
+      <div class="wrap">
+        <div class="hero__content">
+          <span class="eyebrow">Services &amp; pricing</span>
+          <h1>Everything from an hour of advice to a finished home.</h1>
+          <p class="hero__text">Eight services, four packages and a live estimate tool &mdash; so you know roughly what your project costs before you ever speak to us.</p>
+          <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><span>/</span>Services</nav>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ALL SERVICES ============ -->
+  <section class="section">
+    <div class="wrap">
+      <div class="sec-head sec-head--center">
+        <span class="eyebrow eyebrow--center">Capabilities</span>
+        <h2>What the studio does</h2>
+        <p class="lede">Take one service or take all eight. Most clients begin with a consultation and grow the scope from there.</p>
+      </div>
+      <div class="grid g-4" id="servicesGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============ PROCESS ============ -->
+  <section class="section section--alt">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Our method</span>
+        <h2>How a project actually runs</h2>
+        <p class="lede">Five stages, each with a defined deliverable and a payment milestone attached to it. Nothing moves forward until you sign off the stage before.</p>
+      </div>
+    </div>
+    <div class="steps" style="display:grid;grid-template-columns:repeat(5,1fr)">
+      <article class="step" data-reveal><span class="step__n"></span><h3>Discovery</h3><p>A free 90-minute site visit. We measure, photograph and agree the brief, the budget band and the programme.</p></article>
+      <article class="step" data-reveal data-delay="1"><span class="step__n"></span><h3>Concept</h3><p>Space plans, mood boards and a material palette. Two directions, then one is refined with you.</p></article>
+      <article class="step" data-reveal data-delay="2"><span class="step__n"></span><h3>Detailing</h3><p>Working drawings, joinery sections, lighting layouts, and an itemised bill of quantities you approve line by line.</p></article>
+      <article class="step" data-reveal data-delay="3"><span class="step__n"></span><h3>Execution</h3><p>Demolition, civil work, MEP, joinery and finishing under our own supervision, with weekly photo reports.</p></article>
+      <article class="step" data-reveal data-delay="4"><span class="step__n"></span><h3>Handover</h3><p>Styling, deep clean, joint snag walk, warranty documents and a printed care guide for every finish.</p></article>
+    </div>
+  </section>
+
+  <!-- ============ PRICING TABLE ============ -->
+  <section class="section" id="pricing">
+    <div class="wrap">
+      <div class="sec-head sec-head--center">
+        <span class="eyebrow eyebrow--center">Transparent pricing</span>
+        <h2>Four packages, no hidden lines</h2>
+        <p class="lede">Prices below are the studio's published 2026 rates. Your final quotation is fixed against an itemised bill of quantities before any work begins.</p>
+      </div>
+      <div class="table-wrap" data-reveal>
+        <table>
+          <caption>Aurelia Interiors package comparison &mdash; 2026 rates (PKR)</caption>
+          <thead id="pkgHead"></thead>
+          <tbody id="pkgBody"></tbody>
+        </table>
+      </div>
+      <p class="result-note" style="margin-top:16px">All rates exclude government taxes. Sites more than 150&nbsp;km from Lahore carry a travel and supervision surcharge, quoted upfront.</p>
+    </div>
+  </section>
+
+  <!-- ============ INSTANT ESTIMATE ============ -->
+  <section class="section section--alt" id="estimate">
+    <div class="wrap">
+      <div class="sec-head sec-head--center">
+        <span class="eyebrow eyebrow--center">Instant estimate</span>
+        <h2>Get a number in ten seconds</h2>
+        <p class="lede">Drag the slider and pick your options. The figure updates live &mdash; then send it straight to us on WhatsApp if it looks right.</p>
+      </div>
+
+      <div class="estimator" id="estimator" data-reveal>
+        <div class="estimator__form">
+          <div class="field">
+            <div class="range-row">
+              <label for="estArea">Approximate area</label>
+              <span class="range-val" id="estAreaOut">2,000 sq ft</span>
+            </div>
+            <input type="range" id="estArea" min="300" max="12000" step="50" value="2000" aria-describedby="estAreaOut">
+            <span class="field__hint">Tip: click the slider, then use your <kbd>&larr;</kbd> and <kbd>&rarr;</kbd> arrow keys for fine control.</span>
+          </div>
+
+          <div class="field">
+            <label for="estType">Property type</label>
+            <select id="estType">
+              <option value="apartment">Apartment / Flat</option>
+              <option value="house">House / Villa</option>
+              <option value="office">Office</option>
+              <option value="retail">Retail / Caf&eacute;</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="estPkg">Package</label>
+            <select id="estPkg">
+              <option value="design">Design only &mdash; drawings &amp; specification</option>
+              <option value="essential" selected>Turnkey Essential &mdash; design &amp; build</option>
+              <option value="signature">Turnkey Signature &mdash; premium finishes</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label>Optional add-ons</label>
+            <div class="pill-set">
+              <label class="pill"><input type="checkbox" data-extra="18" data-label="Custom joinery"><span>Custom joinery&nbsp;+18%</span></label>
+              <label class="pill"><input type="checkbox" data-extra="6" data-label="Lighting design"><span>Lighting design&nbsp;+6%</span></label>
+              <label class="pill"><input type="checkbox" data-extra="4" data-label="3D walkthrough"><span>3D walkthrough&nbsp;+4%</span></label>
+              <label class="pill"><input type="checkbox" data-extra="9" data-label="Styling &amp; accessories"><span>Styling pack&nbsp;+9%</span></label>
+            </div>
+          </div>
+        </div>
+
+        <div class="estimator__out">
+          <span class="eyebrow">Your indicative budget</span>
+          <p class="est-total" id="estTotal">PKR 0</p>
+          <p class="est-sub" id="estRange">Indicative range</p>
+          <ul class="est-lines" id="estLines"></ul>
+          <a class="btn btn--accent btn--block" id="estWa" href="#" target="_blank" rel="noopener">
+            <span>Send this estimate on WhatsApp</span>
+          </a>
+          <p class="est-note">This tool gives a planning figure only. A firm, fixed quotation follows the site survey and your approved bill of quantities.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PRODUCTS ============ -->
+  <section class="section">
+    <div class="wrap">
+      <div class="sec-head-row">
+        <div class="sec-head">
+          <span class="eyebrow">The workshop</span>
+          <h2>Furniture we make ourselves</h2>
+          <p class="lede">Every piece is built at our Sundar workshop from seasoned hardwood, and carries the same five-year warranty as our fit-out work.</p>
+        </div>
+        <a class="btn btn--ghost" data-wa href="#"><span>Request the catalogue</span></a>
+      </div>
+      <div class="grid g-4" id="productsGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="section section--alt">
+    <div class="wrap split">
+      <div data-reveal>
+        <span class="eyebrow">Questions</span>
+        <h2>Answers before you ask</h2>
+        <p class="lede">The six things almost every client wants to know on the first call. If yours isn't here, message us &mdash; we usually reply within an hour during studio time.</p>
+        <div class="btn-row" style="margin-top:26px">
+          <a class="btn btn--accent" data-wa href="#"><span>Ask on WhatsApp</span></a>
+          <a class="btn btn--ghost" href="contact.html"><span>Contact the studio</span></a>
+        </div>
+        <div class="img-frame" style="margin-top:34px"><img src="assets/img/proj-11.jpg" alt="A modern-classic white kitchen with walnut shelving" loading="lazy"></div>
+      </div>
+      <div class="acc" id="faq" data-reveal data-delay="1"></div>
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section class="section section--tight">
+    <div class="wrap">
+      <div class="cta" data-reveal>
+        <img src="assets/img/proj-13.jpg" alt="">
+        <div class="cta__body">
+          <span class="eyebrow" style="color:var(--brass-2)">Ready when you are</span>
+          <h2>Tell us about the space and we'll tell you what it needs.</h2>
+          <p>Book a free survey and receive a written scope, a realistic budget band and an indicative programme within one working day.</p>
+          <div class="btn-row">
+            <a class="btn btn--light" href="contact.html"><span>Book a free survey</span></a>
+            <a class="btn btn--outline-light" href="portfolio.html"><span>Browse the portfolio</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+<!-- ===== Footer ===== -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__top">
+      <div>
+        <a class="logo" href="index.html" aria-label="Aurelia Interiors — home">
+          <svg class="logo__mark" viewBox="0 0 64 64" fill="none" stroke-width="4" stroke-linecap="round" aria-hidden="true">
+          <path d="M8 56V30a24 24 0 0 1 48 0v26"/><path d="M21 56V32a11 11 0 0 1 22 0v24"/><path d="M21 43h22"/>
+          <circle cx="32" cy="12" r="3" stroke="none"/></svg>
+          <span class="logo__txt"><span class="logo__name">AURELIA</span><span class="logo__sub">INTERIORS</span></span>
+        </a>
+        <p class="footer__about">An interior design and turnkey fit-out studio in Lahore. Since 2013 we have designed, built and handed over more than 170 homes, offices and kitchens across Pakistan.</p>
+        <div class="socials">
+          <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Aurelia Interiors on Facebook"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.45 2.89h-2.33v6.99A10 10 0 0 0 22 12z"/></svg></a>
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Aurelia Interiors on Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2.5" y="2.5" width="19" height="19" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.6" cy="6.4" r="1.1" fill="currentColor" stroke="none"/></svg></a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="Aurelia Interiors on LinkedIn"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M4.98 3.5A2.5 2.5 0 1 0 5 8.5a2.5 2.5 0 0 0 0-5zM3 9.5h4V21H3zM9.5 9.5h3.8v1.6h.05a4.2 4.2 0 0 1 3.75-2c4 0 4.75 2.6 4.75 6V21h-4v-5.2c0-1.24-.02-2.84-1.75-2.84-1.76 0-2.03 1.36-2.03 2.76V21h-4z"/></svg></a>
+          <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Aurelia Interiors on YouTube"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M23 12s0-3.2-.4-4.7a2.5 2.5 0 0 0-1.8-1.8C19.3 5 12 5 12 5s-7.3 0-8.8.5a2.5 2.5 0 0 0-1.8 1.8C1 8.8 1 12 1 12s0 3.2.4 4.7c.2.9.9 1.6 1.8 1.8 1.5.5 8.8.5 8.8.5s7.3 0 8.8-.5a2.5 2.5 0 0 0 1.8-1.8C23 15.2 23 12 23 12zM9.8 15.3V8.7l6 3.3-6 3.3z"/></svg></a>
+        </div>
+      </div>
+
+      <div>
+        <h5>Explore</h5>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services &amp; Pricing</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="services.html#estimate">Instant Estimate</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h5>Services</h5>
+        <ul>
+          <li><a href="services.html">Space Planning</a></li>
+          <li><a href="services.html">Interior Styling</a></li>
+          <li><a href="services.html">3D Visualisation</a></li>
+          <li><a href="services.html">Turnkey Fit-Out</a></li>
+          <li><a href="services.html">Custom Furniture</a></li>
+          <li><a href="services.html">Commercial Interiors</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h5>Visit the studio</h5>
+        <ul class="f-contact">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span>24-C, MM Alam Road,<br>Gulberg III, Lahore 54660</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg><a href="tel:+923001234567">+92 300 123 4567</a></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 6l-10 7L2 6"/></svg><a href="mailto:hello@aureliainteriors.pk">hello@aureliainteriors.pk</a></li>
+        </ul>
+        <h5 style="margin-top:26px">Studio journal</h5>
+        <form class="newsletter" novalidate>
+          <input type="email" name="newsletter" placeholder="Your email address" aria-label="Email address for newsletter">
+          <button class="btn" type="submit"><span>Join</span></button>
+        </form>
+        <p class="news-msg" role="status"></p>
+      </div>
+    </div>
+
+    <div class="footer__bar">
+      <p>&copy; <span data-year>2026</span> Aurelia Interiors (Pvt) Ltd. All rights reserved.</p>
+      <nav aria-label="Legal">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="contact.html">Careers</a>
+      </nav>
+      <p>Designed &amp; built in Lahore, Pakistan.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ===== Floating actions: WhatsApp + back to top ===== -->
+<div class="floaters">
+  <a class="fab fab--wa" data-wa href="#" aria-label="Chat with us on WhatsApp">
+    <span class="fab__tip">Chat on WhatsApp</span>
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.17 8.17 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23 2.2 0 4.27.86 5.83 2.42a8.18 8.18 0 0 1 2.41 5.82c0 4.54-3.7 8.23-8.24 8.23zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.14.16-.29.18-.54.06-.25-.13-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.13-.15.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.43h-.48c-.16 0-.43.06-.65.31-.22.25-.85.83-.85 2.03s.87 2.35.99 2.51c.12.16 1.71 2.61 4.15 3.66.58.25 1.03.4 1.38.51.58.19 1.11.16 1.53.1.47-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.06-.11-.22-.17-.47-.29z"/></svg>
+  </a>
+  <button class="fab fab--top" id="toTop" type="button" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+</div>
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

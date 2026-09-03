@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Us | Aurelia Interiors — Lahore</title>
+<meta name="description" content="Meet Aurelia Interiors — a 24-person interior design and fit-out studio in Lahore, founded in 2013, with its own joinery workshop and a 5-year workmanship warranty.">
+<meta name="author" content="Aurelia Interiors">
+<meta name="theme-color" content="#14100D">
+<meta property="og:title" content="About Us | Aurelia Interiors">
+<meta property="og:description" content="Meet Aurelia Interiors — a 24-person interior design and fit-out studio in Lahore, founded in 2013, with its own joinery workshop and a 5-year workmanship warranty.">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page-about" data-page="about">
+<!-- ===== Preloader ===== -->
+<div class="preloader" id="preloader">
+  <div class="pl-inner">
+    <svg viewBox="0 0 64 64" fill="none" stroke-width="4" stroke-linecap="round" aria-hidden="true">
+      <path d="M8 56V30a24 24 0 0 1 48 0v26"/><path d="M21 56V32a11 11 0 0 1 22 0v24"/><path d="M21 43h22"/>
+    </svg>
+    <b>AURELIA</b>
+    <div class="pl-bar"><i></i></div>
+  </div>
+</div>
+<a class="skip-link" href="#main">Skip to main content</a>
+<div class="progress-bar" id="progress" aria-hidden="true"></div>
+
+<!-- ===== Site header ===== -->
+<header class="header" id="header">
+  <div class="wrap header__inner">
+    <a class="logo" href="index.html" aria-label="Aurelia Interiors — home">
+      <svg class="logo__mark" viewBox="0 0 64 64" fill="none" stroke-width="4" stroke-linecap="round" aria-hidden="true">
+          <path d="M8 56V30a24 24 0 0 1 48 0v26"/><path d="M21 56V32a11 11 0 0 1 22 0v24"/><path d="M21 43h22"/>
+          <circle cx="32" cy="12" r="3" stroke="none"/></svg>
+      <span class="logo__txt">
+        <span class="logo__name">AURELIA</span>
+        <span class="logo__sub">INTERIORS</span>
+      </span>
+    </a>
+
+    <nav class="nav" aria-label="Primary">
+      <a class="nav__link" href="index.html">Home</a>
+      <a class="nav__link" href="about.html">About Us</a>
+      <a class="nav__link" href="services.html">Services</a>
+      <a class="nav__link" href="portfolio.html">Portfolio</a>
+      <a class="nav__link" href="contact.html">Contact Us</a>
+    </nav>
+
+    <div class="header__actions">
+      <a class="icon-btn" href="portfolio.html" aria-label="Your shortlisted projects">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1.1 1L12 21l7.7-7.6 1.1-1a5.5 5.5 0 0 0 0-7.8z"/></svg>
+        <span class="icon-btn__badge" data-fav-count>0</span>
+      </a>
+      <button class="icon-btn theme-toggle" type="button" aria-label="Switch between light and dark theme">
+        <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M6.3 17.7l-1.4 1.4M19.1 4.9l-1.4 1.4"/></svg>
+      </button>
+      <a class="btn btn--sm" href="contact.html"><span>Get a quote</span></a>
+      <button class="burger" id="burger" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="drawer">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ===== Mobile drawer ===== -->
+<nav class="drawer" id="drawer" aria-label="Mobile">
+  <a class="drawer__link" href="index.html">Home</a>
+  <a class="drawer__link" href="about.html">About Us</a>
+  <a class="drawer__link" href="services.html">Services</a>
+  <a class="drawer__link" href="portfolio.html">Portfolio</a>
+  <a class="drawer__link" href="contact.html">Contact Us</a>
+  <div class="drawer__foot">
+    <a class="btn btn--accent" href="contact.html"><span>Book a consultation</span></a>
+    <a class="btn btn--ghost" data-wa href="#"><span>WhatsApp us</span></a>
+  </div>
+</nav>
+
+<main id="main">
+
+  <!-- ============ PAGE HERO ============ -->
+  <section class="hero hero--page" aria-label="About Aurelia Interiors">
+    <div class="hero__media">
+      <div class="hero__slide on"><img src="assets/img/about-team.jpg" alt="The Aurelia Interiors design team at work in the Lahore studio" fetchpriority="high"></div>
+    </div>
+    <div class="hero__inner">
+      <div class="wrap">
+        <div class="hero__content">
+          <span class="eyebrow">About the studio</span>
+          <h1>Twenty-four people who care what a room feels like at 7 a.m.</h1>
+          <p class="hero__text">Designers, visualisers, project directors and carpenters — all on one payroll, all in one building on MM Alam Road.</p>
+          <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a><span>/</span>About Us</nav>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ OUR STORY ============ -->
+  <section class="section">
+    <div class="wrap split split--wide">
+      <div data-reveal>
+        <span class="eyebrow">Our story</span>
+        <h2>It started because a client asked a fair question.</h2>
+        <p class="lede">&ldquo;You have drawn me a beautiful room &mdash; so why can't you also build it?&rdquo;</p>
+        <p>In 2013 Zohaib Rahman was three years out of the National College of Arts, drawing interiors that other people then executed badly. Drawings would be misread, sections ignored, a 40&nbsp;mm reveal built at 90&nbsp;mm. The gap between the design and the delivery was where every project lost its quality.</p>
+        <p>So Aurelia was set up to close that gap. First one carpenter, then a small joinery unit, and by 2019 a 9,000&nbsp;sq&nbsp;ft workshop with fourteen craftsmen on staff. Today we draw it, we build it, and we are the ones who answer the phone if something is wrong two years later.</p>
+        <p>We are deliberately not the biggest studio in Lahore. We take on roughly thirty projects a year because that is the number our directors can personally walk every week.</p>
+        <p class="signature">Zohaib Rahman &mdash; Founder</p>
+      </div>
+      <div class="split__media" data-reveal data-delay="1">
+        <div class="collage">
+          <div class="collage__a"><img src="assets/img/about-studio.jpg" alt="Soft seating and daylight in the Aurelia Interiors studio lounge" loading="lazy"></div>
+          <div class="collage__b"><img src="assets/img/proj-14.jpg" alt="A double-height stair hall built by Aurelia Interiors" loading="lazy"></div>
+          <div class="collage__badge"><b>170+</b><span>Handovers</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MISSION / VISION / VALUES ============ -->
+  <section class="section section--alt">
+    <div class="wrap">
+      <div class="sec-head sec-head--center">
+        <span class="eyebrow eyebrow--center">What guides us</span>
+        <h2>Mission, vision and the rules we won't bend</h2>
+      </div>
+      <div class="grid g-3">
+        <article class="card" data-reveal data-tilt>
+          <div class="card__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></div>
+          <h3>Our mission</h3>
+          <p>To make well-designed, properly built interiors normal in Pakistan &mdash; not a luxury reserved for a handful of addresses in Lahore and Karachi.</p>
+        </article>
+        <article class="card" data-reveal data-delay="1" data-tilt>
+          <div class="card__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-7 11-7 11 7 11 7-4 7-11 7-11-7-11-7z"/><circle cx="12" cy="12" r="3"/></svg></div>
+          <h3>Our vision</h3>
+          <p>To be the studio Pakistani homeowners recommend without being asked, and the first name on a developer's tender list for interiors that must actually last.</p>
+        </article>
+        <article class="card" data-reveal data-delay="2" data-tilt>
+          <div class="card__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg></div>
+          <h3>Our promise</h3>
+          <p>A fixed price before we start, a weekly photograph from your site, and a five-year warranty on every joint we cut. In writing, every time.</p>
+        </article>
+      </div>
+
+      <div class="grid g-4" style="margin-top:clamp(34px,4vw,54px)">
+        <div class="feature" data-reveal><span class="feature__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg></span><div><h4>Honesty over upselling</h4><p>If your kitchen only needs new fronts and lighting, we will tell you that, even though a full rebuild pays us more.</p></div></div>
+        <div class="feature" data-reveal data-delay="1"><span class="feature__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/></svg></span><div><h4>Craft kept in-house</h4><p>Fourteen full-time carpenters and finishers, paid monthly, trained by us. Not a rotating cast of daily-wage subcontractors.</p></div></div>
+        <div class="feature" data-reveal data-delay="2"><span class="feature__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10z"/><path d="M2 21c0-3 1.85-5.36 5.08-6"/></svg></span><div><h4>Responsible sourcing</h4><p>Seasoned, legally harvested hardwood, low-VOC finishes and local artisans wherever the specification allows it.</p></div></div>
+        <div class="feature" data-reveal data-delay="3"><span class="feature__ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></span><div><h4>Time is part of the brief</h4><p>A programme is issued at kick-off and updated every Friday. If a date slips, you hear it from us first.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ NUMBERS ============ -->
+  <section class="section section--deep section--tight">
+    <div class="wrap">
+      <div class="stats">
+        <div class="stat"><span class="stat__num"><span data-count="170">0</span>+</span><span class="stat__label">Projects delivered</span></div>
+        <div class="stat"><span class="stat__num"><span data-count="1.4">0</span>M</span><span class="stat__label">Sq ft designed</span></div>
+        <div class="stat"><span class="stat__num"><span data-count="14">0</span></span><span class="stat__label">In-house craftsmen</span></div>
+        <div class="stat"><span class="stat__num"><span data-count="41">0</span>%</span><span class="stat__label">Repeat &amp; referred clients</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TIMELINE ============ -->
+  <section class="section">
+    <div class="wrap split">
+      <div data-reveal>
+        <span class="eyebrow">Milestones</span>
+        <h2>Thirteen years, told in five moments</h2>
+        <p class="lede">We have grown slowly and on purpose. Every one of these steps was paid for by finished work, not borrowed against it.</p>
+        <div class="img-frame" style="margin-top:32px"><img src="assets/img/proj-09.jpg" alt="The Foundry co-working floor, an adaptive reuse project by Aurelia Interiors" loading="lazy"></div>
+      </div>
+      <div data-reveal data-delay="1">
+        <ol class="timeline" id="timeline"></ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TEAM ============ -->
+  <section class="section section--alt">
+    <div class="wrap">
+      <div class="sec-head sec-head--center">
+        <span class="eyebrow eyebrow--center">The people</span>
+        <h2>Who you will actually be working with</h2>
+        <p class="lede">No account managers and no hand-offs. The four people below run every project we take on.</p>
+      </div>
+      <div class="grid g-4" id="teamGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============ AWARDS TABLE ============ -->
+  <section class="section">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Recognition</span>
+        <h2>Awards &amp; press</h2>
+        <p class="lede">We do not enter many competitions, but we are glad when the work is noticed.</p>
+      </div>
+      <div class="table-wrap" data-reveal>
+        <table>
+          <caption>Awards received by Aurelia Interiors, 2022&ndash;2025</caption>
+          <thead>
+            <tr>
+              <th scope="col">Year</th>
+              <th scope="col">Award</th>
+              <th scope="col">Awarding body</th>
+              <th scope="col">Project</th>
+              <th scope="col">Result</th>
+            </tr>
+          </thead>
+          <tbody id="awardsBody"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA ============ -->
+  <section class="section section--tight">
+    <div class="wrap">
+      <div class="cta" data-reveal>
+        <img src="assets/img/hero-3.jpg" alt="">
+        <div class="cta__body">
+          <span class="eyebrow" style="color:var(--brass-2)">Come and see us</span>
+          <h2>The kettle is on at 24-C, MM Alam Road.</h2>
+          <p>Drop in with your floor plan, or book a slot and we will come to your site instead. Either way, the first conversation costs nothing.</p>
+          <div class="btn-row">
+            <a class="btn btn--light" href="contact.html"><span>Book a consultation</span></a>
+            <a class="btn btn--outline-light" href="portfolio.html"><span>See our work</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+<!-- ===== Footer ===== -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__top">
+      <div>
+        <a class="logo" href="index.html" aria-label="Aurelia Interiors — home">
+          <svg class="logo__mark" viewBox="0 0 64 64" fill="none" stroke-width="4" stroke-linecap="round" aria-hidden="true">
+          <path d="M8 56V30a24 24 0 0 1 48 0v26"/><path d="M21 56V32a11 11 0 0 1 22 0v24"/><path d="M21 43h22"/>
+          <circle cx="32" cy="12" r="3" stroke="none"/></svg>
+          <span class="logo__txt"><span class="logo__name">AURELIA</span><span class="logo__sub">INTERIORS</span></span>
+        </a>
+        <p class="footer__about">An interior design and turnkey fit-out studio in Lahore. Since 2013 we have designed, built and handed over more than 170 homes, offices and kitchens across Pakistan.</p>
+        <div class="socials">
+          <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Aurelia Interiors on Facebook"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.45 2.89h-2.33v6.99A10 10 0 0 0 22 12z"/></svg></a>
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Aurelia Interiors on Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2.5" y="2.5" width="19" height="19" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.6" cy="6.4" r="1.1" fill="currentColor" stroke="none"/></svg></a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="Aurelia Interiors on LinkedIn"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M4.98 3.5A2.5 2.5 0 1 0 5 8.5a2.5 2.5 0 0 0 0-5zM3 9.5h4V21H3zM9.5 9.5h3.8v1.6h.05a4.2 4.2 0 0 1 3.75-2c4 0 4.75 2.6 4.75 6V21h-4v-5.2c0-1.24-.02-2.84-1.75-2.84-1.76 0-2.03 1.36-2.03 2.76V21h-4z"/></svg></a>
+          <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Aurelia Interiors on YouTube"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M23 12s0-3.2-.4-4.7a2.5 2.5 0 0 0-1.8-1.8C19.3 5 12 5 12 5s-7.3 0-8.8.5a2.5 2.5 0 0 0-1.8 1.8C1 8.8 1 12 1 12s0 3.2.4 4.7c.2.9.9 1.6 1.8 1.8 1.5.5 8.8.5 8.8.5s7.3 0 8.8-.5a2.5 2.5 0 0 0 1.8-1.8C23 15.2 23 12 23 12zM9.8 15.3V8.7l6 3.3-6 3.3z"/></svg></a>
+        </div>
+      </div>
+
+      <div>
+        <h5>Explore</h5>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services &amp; Pricing</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="services.html#estimate">Instant Estimate</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h5>Services</h5>
+        <ul>
+          <li><a href="services.html">Space Planning</a></li>
+          <li><a href="services.html">Interior Styling</a></li>
+          <li><a href="services.html">3D Visualisation</a></li>
+          <li><a href="services.html">Turnkey Fit-Out</a></li>
+          <li><a href="services.html">Custom Furniture</a></li>
+          <li><a href="services.html">Commercial Interiors</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h5>Visit the studio</h5>
+        <ul class="f-contact">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span>24-C, MM Alam Road,<br>Gulberg III, Lahore 54660</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg><a href="tel:+923001234567">+92 300 123 4567</a></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 6l-10 7L2 6"/></svg><a href="mailto:hello@aureliainteriors.pk">hello@aureliainteriors.pk</a></li>
+        </ul>
+        <h5 style="margin-top:26px">Studio journal</h5>
+        <form class="newsletter" novalidate>
+          <input type="email" name="newsletter" placeholder="Your email address" aria-label="Email address for newsletter">
+          <button class="btn" type="submit"><span>Join</span></button>
+        </form>
+        <p class="news-msg" role="status"></p>
+      </div>
+    </div>
+
+    <div class="footer__bar">
+      <p>&copy; <span data-year>2026</span> Aurelia Interiors (Pvt) Ltd. All rights reserved.</p>
+      <nav aria-label="Legal">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="contact.html">Careers</a>
+      </nav>
+      <p>Designed &amp; built in Lahore, Pakistan.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ===== Floating actions: WhatsApp + back to top ===== -->
+<div class="floaters">
+  <a class="fab fab--wa" data-wa href="#" aria-label="Chat with us on WhatsApp">
+    <span class="fab__tip">Chat on WhatsApp</span>
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.17 8.17 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23 2.2 0 4.27.86 5.83 2.42a8.18 8.18 0 0 1 2.41 5.82c0 4.54-3.7 8.23-8.24 8.23zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.24-.64.8-.78.97-.14.16-.29.18-.54.06-.25-.13-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.43.13-.15.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.43h-.48c-.16 0-.43.06-.65.31-.22.25-.85.83-.85 2.03s.87 2.35.99 2.51c.12.16 1.71 2.61 4.15 3.66.58.25 1.03.4 1.38.51.58.19 1.11.16 1.53.1.47-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.15-1.18-.06-.11-.22-.17-.47-.29z"/></svg>
+  </a>
+  <button class="fab fab--top" id="toTop" type="button" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+  </button>
+</div>
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
